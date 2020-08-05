@@ -30,8 +30,8 @@ spec:
           args: 
             - "--bigip-username=$(BIGIP_USERNAME)"
             - "--bigip-password=$(BIGIP_PASSWORD)"
-            - "--bigip-url=192.168.200.92"
-            - "--bigip-partition=k8s"
+            - "--bigip-url=10.120.2.14"
+            - "--bigip-partition=Rancher"
             - "--namespace=default"
             - "--namespace=monitoring"
             - "--pool-member-type=cluster"
