@@ -42,6 +42,7 @@ spec:
             - "--manage-configmaps=true"
             - "--custom-resource-mode=false"
             - "--http-listen-address=0.0.0.0:8080"
+            - "--as3-validation=false"
           command: 
             - /app/bin/k8s-bigip-ctlr
           livenessProbe:
