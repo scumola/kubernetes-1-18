@@ -31,7 +31,7 @@ spec:
             - "--bigip-username=$(BIGIP_USERNAME)"
             - "--bigip-password=$(BIGIP_PASSWORD)"
             - "--bigip-url=10.120.2.14"
-            - "--bigip-partition=Rancher"
+            - "--bigip-partition=Rancher-test"
             - "--namespace=cis-test"
             - "--pool-member-type=cluster"
             - "--log-level=DEBUG"
