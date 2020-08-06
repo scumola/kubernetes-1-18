@@ -35,7 +35,6 @@ spec:
             - "--namespace=default"
             - "--namespace=monitoring"
             - "--pool-member-type=cluster"
-            - "--flannel-name=fl-vxlan"
             - "--log-level=DEBUG"
             - "--log-as3-response=true"
             - "--insecure=true"
@@ -44,7 +43,6 @@ spec:
             - "--manage-configmaps=false"
             - "--custom-resource-mode=false"
             - "--http-listen-address=0.0.0.0:8080"
-            - "--as3-validation=true"
           command: 
             - /app/bin/k8s-bigip-ctlr
           livenessProbe:
