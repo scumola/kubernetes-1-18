@@ -32,7 +32,6 @@ spec:
             - "--bigip-password=$(BIGIP_PASSWORD)"
             - "--bigip-url=10.120.2.14"
             - "--bigip-partition=k8s"
-            - "--namespace=cis-test"
             - "--pool-member-type=cluster"
             - "--log-level=DEBUG"
             - "--log-as3-response=true"
